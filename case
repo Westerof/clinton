@@ -1,0 +1,16 @@
+animation: rotation 7s 0s infinite linear;
+
+
+.emoji:hover{
+  animation-play-state: paused;
+}
+
+@keyframes rotation{
+  from{
+    transform: rotateY(0deg);
+  }
+
+  to{
+    transform: rotateY(90deg);
+  }
+}

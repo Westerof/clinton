@@ -5,27 +5,27 @@
 
 @font-face{
   font-family: nun;
-  src: url(/asset/font/Roboto-Medium.ttf);
+  src: url(Roboto-Medium.ttf);
 }
 
 @font-face{
     font-family: nun2;
-    src: url(/asset/Roboto-Regular.ttf);
+    src: url(Roboto-Regular.ttf);
 }
 
 @font-face{
   font-family: nun3;
-  src: url(/asset/font/Roboto-MediumItalic.ttf);
+  src: url(Roboto-MediumItalic.ttf);
 }
 
 @font-face{
   font-family: nun4;
-  src: url(/asset/font/Nunito-BlackItalic.ttf);
+  src: url(Nunito-BlackItalic.ttf);
 }
 
 @font-face{
   font-family: nun5;
-  src: url(/asset/Roboto-BoldItalic.ttf);
+  src: url(Roboto-BoldItalic.ttf);
 }
 
 :root{

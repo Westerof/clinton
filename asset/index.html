@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container"></div>
+
+      <!--Navbar-->
+      <nav class="navbar">
+        <div class="icon">
+          <a href="#">
+            <h2 class="logo">
+              CLINTON <br />
+              Razor Realm
+            </h2>
+          </a>
+        </div>
+        <ul class="sidemenu">
+          <li onclick="hideSidemenu()"><a href="#" class="list"><svg xmlns="http://www.w3.org/2000/svg"height="35px"viewBox="0 -960 960 960"width="35px"fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="#" class="list">HOME</a></li>
+          <li><a href="#" class="list">ABOUT</a></li>
+          <li><a href="#" class="list">SERVICE</a></li>
+          <li><a href="#" class="active">CONTACT</a></li>
+        </ul>
+        <ul class="menu">
+          <li class="hideOnMobile"><a href="#" class="list">HOME</a></li>
+          <li class="hideOnMobile"><a href="#" class="list">ABOUT</a></li>
+          <li class="hideOnMobile"><a href="#" class="list">SERVICE</a></li>
+          <li class="hideOnMobile"><a href="#" class="active">CONTACT</a></li>
+          <li class="menu-button" onclick="showSidemenu()">
+            <a href="#" class="list"><svg xmlns="http://www.w3.org/2000/svg"height="35px"viewBox="0 -960 960 960" width="35px" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header-content">
+          <h2 class="heading1">
+            CLINTON <br />
+            Razor Realm Barbing Salon
+          </h2>
+          <p class="para1">
+            A Place Where fanatasy meet reality and
+            <span>unimangenable haircut with an unforgettable</span> <br />
+            expericence with our
+            <span>high class professional barbar</span> .You want such
+            expericence <br />click the request link below
+          </p>
+          <button><a href="#" class="request">Request a Service</a></button>
+        </div>
+      </header>
+    </div>
+
+    <section class="offer">
+      <div class="offer-content">
+        <h4 class="para2">
+          I offer high class haircut,and also a never forgeting <br />
+          expericence such as hair treatment also hair dressing <br />
+          for men (Dread) e.t.c .
+        </h4>
+
+        <div class="rest2">
+          <div class="row2">
+            <div class="top">
+              <div class="col2">
+                <div class="overlay">
+                  <div class="text">
+                    Fresh cuts and styles tailored to <br />
+                    your unique look
+                  </div>
+                  <div class="text">Men's grooming and shaving services</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="top2">
+              <div class="col2">
+                <div class="overlay">
+                  <div class="text">Fade and taper expertise</div>
+                  <div class="text">Beard trimming and shaping</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="top3">
+              <div class="col2">
+                <div class="overlay">
+                  <div class="text">
+                    Smooth shaves and trims that leave you <br />
+                    feeling sharp
+                  </div>
+                  <div class="text">
+                    A relaxing atmosphere and exceptional <br />
+                    customer service
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-host">
+      <div class="host">
+        <div class="title">
+          <h2 id="host">MY BIO</h2>
+          <div class="line3"></div>
+          <h3 class="host-name">CLINTON Fatoki</h3>
+        </div>
+        <p class="bio-host">
+          Hi👋there my name is CLINTON i am an highly skilled and <br />
+          experienced barber at Clinton Razor Realm Barbing Salon.<br />
+          With a passion for precision and a keen eye for detail, I delivers<br />
+          exceptional haircuts and grooming services to clients of all ages.<br />
+          My expertise includes:
+          <li>Fresh cuts and styles tailored to your unique look</li>
+          <li>
+            Personalized consultations to enhance your hair texture and color
+          </li>
+          <li>Hair texture and color consultations</li>
+          <li>Precision haircuts and styling</li>
+        </p>
+
+        <p>
+          I dedication to my craft, combined with my friendly and welcoming<br />
+          demeanor, ensures a comfortable and relaxing experience <br />for
+          every client. Whether you're seeking a quick trim or a complete <br />
+          makeover, trust me todeliver top-notch service and a fresh new<br />
+          look at Clinton Razor Realm Barbing Salon. <br />
+          <span class="bio-span"
+            >So now Step into our cozy salon and let Clinton work his magic!<br />
+            Book your appointment today and discover why we're the go-to<br />
+            destination for men's grooming in town. Come for a haircut, leave
+            <br />
+            with a fresh new look and a smile!"
+          </span>
+        </p>
+      </div>
+
+      <div class="host-background">
+        <img src="IMG_1212.PNG" alt="" id="host-image"/>
+        <div class="names">
+          <p class="host-name3">Clinton Fatoki</p>
+          <p class="host-name4">HEAD Of Clinton Razor Realm Barbing Salon</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function showSidemenu() {
+        const sidemenu = document.querySelector(".sidemenu");
+        sidemenu.style.display = "flex";
+      }
+
+      function hideSidemenu() {
+        const sidemenu = document.querySelector(".sidemenu");
+        sidemenu.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
